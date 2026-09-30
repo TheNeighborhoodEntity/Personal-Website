@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Custom Website</title>
+	<link rel="stylesheet" type="text/css" href="css/customwebsite.css">
+	<script src="javascript/customwebsite.js"></script>
+	<script src="https://kit.fontawesome.com/26292d91e4.js" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $("a[href*=#]:not([href=#])").click(function() {
+        if (
+          location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
+          location.hostname == this.hostname
+        ) {
+          var target = $(this.hash);
+          target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+          if (target.length) {
+            $("html,body").animate({
+                scrollTop: target.offset().top
+              },
+              1000
+            );
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div class="top main">
+
+    <nav class="flex-nav">
+      <br>
+      <div class="logo">
+        <div class="toplogo">
+          <div class="logoimage">
+          <img src="images/logo finalized.png">
+        </div>&nbsp;&nbsp;
+          </div>
+      </div>
+
+      <a href="#" class="toggleNav"><i class="fa fa-bars"></i> Menu</a>
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="about.html" title="About">About</a></li>
+        <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+        <li><a href="socials.html" title="Socials">Socials</a></li>
+        <li><a href="contact.html" title="Contact">Contact</a></li>
+        <li class="social">
+          <a href="https://bsky.app/profile/neighborhoodentity.bsky.social" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://www.youtube.com/@theneighborhoodentity" title="YouTube"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://www.instagram.com/the_neighborhood_entity/" title="Instagram"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <div class="wrapper">
+
+    <br><br><br><br><br><br>
+
+    <h1><u>Portfolio</u></h1>
+    <p>Here are some of my works from this year and last year that I find are my favorites to show! My focuses are in digital art, web design, graphic design where I mainly use Photoshop, Procreate, and HTML/CSS/Javascript. I haven't made a lot of new works this year, unfortunately, but it still shows the skill that I have when it comes to creating.</p>
+    <br>
+    <h1>Digital Art</h1>
+    <br>
+    <div class="images">
+      <img src="images/portfolio1.png" style=" height: 30%; width: 30%;">
+      <img src="images/portfolio2.png" style=" height: 40%; width: 40%;">
+      <img src="images/portfolio4.png" style=" height: 30%; width: 30%;">
+    </div>
+
+    <h1>Photoshop</h1>
+    <br>
+    <div class="images">
+      <img src="images/portfolio7.png" style=" height: 31%; width: 31%;">
+      <img src="images/portfolio8.png" style=" height: 30%; width: 30%;">
+      <img src="images/portfolio9.png" style=" height: 30%; width: 30%;">
+    </div>
+
+  </div>
+
+</body>
+</html>
