@@ -8,11 +8,11 @@ img {
 
 body {
   font-family: "basenji-variable", sans-serif;
-  color: #ffffff;
+  color: #e1e8fc;
   margin: 0; 
   padding: 0; 
   margin-top: 150px;
-  background-color: #000000;
+  background-color: #121212;
 }
 
 * {
@@ -43,7 +43,7 @@ nav a {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  background-color: #000000;
+  background-color: #121212;
 }
 
 nav a:hover, a:focus {
@@ -58,7 +58,7 @@ nav a:hover, a:focus {
 .logo {
   display: flex;
   justify-content: center;
- background-color: #000000;
+ background-color: #121212;
 }
 
 .toplogo {
@@ -78,7 +78,7 @@ nav a:hover, a:focus {
   background-color: #fff;
   z-index: 999;
   border-bottom: solid 2px #4d3fcd;
-  background-color: #000000;
+  background-color: #121212;
 }
 
 .top h1 a {
@@ -131,7 +131,7 @@ a.nav:hover {
 }
 
 .wrapper {
-  background-color: #000000;
+  background-color: #121212;
   max-width: 960px;
   min-width: 380px;
   margin: 0 auto;
@@ -163,7 +163,7 @@ a.nav:hover {
   float: center;
   width: 200px;
   height: 200px;
-  background-color: black;
+  background-color: #121212;
   margin: 10px;
   padding: 10px;
 }
