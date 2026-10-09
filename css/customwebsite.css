@@ -7,7 +7,7 @@ img {
 }
 
 body {
-  font-family: "basenji-variable", sans-serif;
+  font-family: "aquavit", sans-serif;
   color: #e1e8fc;
   margin: 0; 
   padding: 0; 
@@ -27,7 +27,7 @@ h1 {
 
 p {
   padding: 10px;
-  font-family: "basenji-variable", sans-serif;
+  font-family: "aquavit", sans-serif;
 }
 
 nav a {
@@ -62,7 +62,7 @@ nav a:hover, a:focus {
 }
 
 .toplogo {
-  color: #4d3fcd;
+  color: #3f4dcd;
   font-size: 2rem;
   font-weight: 400;
   font-kerning: -1px;
@@ -77,7 +77,7 @@ nav a:hover, a:focus {
   height: auto;
   background-color: #fff;
   z-index: 999;
-  border-bottom: solid 2px #4d3fcd;
+  border-bottom: solid 2px #3f4dcd;
   background-color: #121212;
 }
 
@@ -105,7 +105,7 @@ nav a:hover, a:focus {
 }
 
 .flex-nav li a {
-  color: #4d3fcd;
+  color: #3f4dcd;
    
 }
 
