@@ -24,10 +24,11 @@ body {
 h1 {
   font-family: "sauna-new", sans-serif;
   position: center;
+  padding: 10px;
 }
 
 p {
-  padding: 10px;
+  padding: 15px;
   font-family: "aquavit", sans-serif;
 }
 
@@ -165,7 +166,7 @@ a.nav:hover {
   width: 200px;
   height: 200px;
   background-color: #121212;
-  margin: 10px;
+  margin: 1%;
   padding: 10px;
 }
 
