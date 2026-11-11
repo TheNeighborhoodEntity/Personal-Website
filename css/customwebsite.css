@@ -1,6 +1,7 @@
 @import url('https://use.typekit.net/hgh0cpp.css');
 
 img {
+  margin: 2% auto 1%;
   height: 100px;
   width: 100px;
   position: center;
