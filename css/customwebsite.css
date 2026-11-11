@@ -163,10 +163,9 @@ a.nav:hover {
 
 .imagebox {
   float: center;
-  width: 200px;
-  height: 200px;
-  background-color: #121212;
-  margin: 1%;
+  width: 170px;
+  height: 100px;
+  margin: 2%;
   padding: 10px;
 }
 
